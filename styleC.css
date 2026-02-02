@@ -1,0 +1,20 @@
+/* Using Gradients, Animations, and Web Fonts from your sample */
+.box-a { background: linear-gradient(#dfe1e7, #687291); } /* Gradient */
+
+.box-b {
+    transition: transform 0.5s ease; /* Transition */
+}
+.box-b:hover { transform: scale(1.1); }
+
+.box-c {
+    animation: pulse 2s infinite; /* Animation */
+}
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.box-d { font-family: 'Tangerine', serif; } /* Web Font */
+
+.box-e { box-shadow: 10px 10px 5px #888888; } /* Shadow */
