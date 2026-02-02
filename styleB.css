@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.box-container {
+    white-space: nowrap; /* Boxes A-E stay on same line */
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.box-content {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF; /* 10px dotted line */
+    margin-right: 10px; /* 10px space between boxes */
+    padding-left: 10px; /* 10px space between letter and edge */
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.box-content:hover {
+    cursor: pointer; /* "Hand" cursor */
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.box-f {
+    position: fixed; /* Stays in corner when window resizes */
+    bottom: 0;
+    right: 0;
+    margin-right: 0;
+}
